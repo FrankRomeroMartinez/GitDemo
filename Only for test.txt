@@ -8,11 +8,9 @@ cd documents cd GitPracticeFolder
 
 git init
 
-git commit -m "This is my first commit"
-
 git add *
 
-git status On branch master
+git status On branch master // for review wich folder you are gonna a commit
 
 git commit -m "This is my first commit"
 
