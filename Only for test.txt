@@ -1,21 +1,36 @@
-Just for practice nothing formal
 
-git config --global user.email "romafranky@hotmail.com"
-git config --global user.name "FrankRomeroMartinez"
 
-step on your local folder
-cd documents cd GitPracticeFolder
+git config --global user.email "romafranky@hotmail.com" //Give credential to your git hub space
+git config --global user.name "FrankRomeroMartinez"	//Give credential to your git hub space
 
-git init
+sstep on your local folder
+cd documents cd GitPracticeFolder			//Alway steps on your local folder you wish save on git
 
-git add *
+git init						//Need initialize
 
-git status On branch master // for review wich folder you are gonna a commit
+git add *						//Select specific files from your work 
 
-git commit -m "This is my first commit"
+git status On branch master 				// for review wich files you are gonna a commit
 
-git remote add origin https://github.com/FrankRomeroMartinez/GitDemo.git
+git commit -m "This is my third commit"			//Leave comment from your commit and add on Staging phase
 
-git push origin master
+git remote add origin https://github.com/FrankRomeroMartinez/GitDemo.git //This is destination repository
 
+git push origin master					//Push in to master branch of destination repository
+
+-------------------------------------------------------------------------------------------------------------------
+
+git pull origin master					//Obtain a latest copy from origin of master branch
+
+-----------------------------------Branches types------------------------------------------------------------------
+
+git checkout -b Testing 				//Git check the branch (-b) Testing Create a new branch and switch to it
+
+git branch						//Inspect how many branch are
+
+git add *						// add files to testing branch
+
+git commit -m "This commit is for testing branch"	//Leave comment from your commit and add on Staging phase
+
+git push origin Testing 				//Now in your repository have new testing branch with files
 
