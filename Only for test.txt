@@ -3,7 +3,7 @@
 git config --global user.email "romafranky@hotmail.com" //Give credential to your git hub space
 git config --global user.name "FrankRomeroMartinez"	//Give credential to your git hub space
 
-sstep on your local folder
+step on your local folder
 cd documents cd GitPracticeFolder			//Alway steps on your local folder you wish save on git
 
 git init						//Need initialize
@@ -34,3 +34,16 @@ git commit -m "This commit is for testing branch"	//Leave comment from your comm
 
 git push origin Testing 				//Now in your repository have new testing branch with files
 
+git checkout master					//switch of branches from testing to master
+
+-----------------------------------Files structures on branches---------------------------------------------------
+GetPracticeFolder have main and testing branches
+GitDemoClone      have main branch
+-----------------------------------Merge Testing branch in to Main branch-----------------------------------------
+
+
+cd.. GetPracticeFolder					//step in to main branch
+
+git pull origin master					//get all updates from master branch
+
+git merge Testing					//Merge to Testing branch
